@@ -1,0 +1,31 @@
+.form-task {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.task-input {
+    width: 450px;
+    font-size: 19px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px;
+    border: 2px solid #00471b;
+
+}
+
+.task-button {
+    padding: 16px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background: #00471b;
+    color: #fff;
+    text-transform: capitalize;
+}
